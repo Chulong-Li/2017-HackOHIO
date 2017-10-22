@@ -1,0 +1,43 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Bookmark the HackOHI/O</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+    <script type="text/JavaScript" src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Bookmark the HackOHI/O.</h1>
+      <img src="hackohio.png" alt="HackOHI/O" width="50" height="50">
+      <p>Bad programmers worry about the code.</p>
+      <p>Good programmers worry about data str</p>
+      <p>uctures and their relationships.     </p>
+      <p>           ---Linus Benedict Torvalds</p>
+    </body>
+</html>

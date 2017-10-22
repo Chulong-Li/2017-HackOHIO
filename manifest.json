@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bookmark the HackOHI/O",
+  "description": "This extension allows the user to bookmark.",
+  "version": "1.7",
+
+  "browser_action": {
+    "default_icon": "osu.png",
+    "default_popup": "popup.html"
+  },
+  "icons":{
+    "48":"osu.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ]
+}
